@@ -17,16 +17,16 @@
 
 ---
 
-### ⚡ About Me
+### <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/icons/terminal.svg" width="18" height="18" align="absmiddle" /> About Me
 
-- 🛡️ **Autonomous AI Systems**: Creator of **[Nusa Agent](https://github.com/ARAEMXA26/Nusa-Agent)** — a local-first autonomous command center with multi-agent DAGs, zero-trust path sandboxing, and Playwright automation.
-- 🌐 **Modern Full-Stack**: Developing enterprise applications using **Next.js 15/16**, **React 19**, **Prisma ORM**, and **FastAPI**.
-- 🤖 **Applied LLM Engineering**: Production integrations with **Groq (Llama 3.3)**, **Google Gemini**, and the **Model Context Protocol (MCP)**.
-- 🎯 **Engineering Philosophy**: Local-first privacy, zero unneeded abstractions, rock-solid security boundaries, and high-throughput async architecture.
+- <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/icons/shield.svg" width="16" height="16" align="absmiddle" /> **Autonomous AI Systems**: Creator of **[Nusa Agent](https://github.com/ARAEMXA26/Nusa-Agent)** — local-first autonomous command center with multi-agent DAGs, zero-trust path sandboxing, and Playwright automation.
+- <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/icons/layers.svg" width="16" height="16" align="absmiddle" /> **Modern Full-Stack**: Developing enterprise applications using **Next.js 15/16**, **React 19**, **Prisma ORM**, and **FastAPI**.
+- <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/icons/cpu.svg" width="16" height="16" align="absmiddle" /> **Applied LLM Engineering**: Production integrations with **Groq (Llama 3.3)**, **Google Gemini**, and the **Model Context Protocol (MCP)**.
+- <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/icons/zap.svg" width="16" height="16" align="absmiddle" /> **Engineering Philosophy**: Local-first privacy, zero unneeded abstractions, rock-solid security boundaries, and high-throughput async architecture.
 
 ---
 
-### 🛠️ Core Technologies & Ecosystem
+### <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/icons/layers.svg" width="18" height="18" align="absmiddle" /> Core Technologies & Ecosystem
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -36,7 +36,7 @@
 
 ---
 
-### 🚀 Featured Systems
+### <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/icons/box.svg" width="18" height="18" align="absmiddle" /> Featured Systems
 
 <p align="center">
   <a href="https://github.com/ARAEMXA26/Nusa-Agent">
@@ -57,7 +57,7 @@
 
 ---
 
-### 📊 GitHub Activity & Metrics
+### <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/icons/activity.svg" width="18" height="18" align="absmiddle" /> GitHub Activity & Metrics
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ARAEMXA26&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8" width="49%" alt="Stats" />
@@ -71,5 +71,5 @@
 ---
 
 <div align="center">
-  <sub>⚡ Engineered with precision by <b>Arae Mahesa Armera</b>. Open for collaboration on high-impact AI systems.</sub>
+  <sub>Engineered with precision by <b>Arae Mahesa Armera</b>. Open for collaboration on high-impact AI systems.</sub>
 </div>
