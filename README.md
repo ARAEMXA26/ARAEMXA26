@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/banner.svg" alt="Arae Mahesa Armera Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/banner.svg" alt="Arae Mahesa Armera Banner" width="100%" />
 </div>
 
 <p align="center">
