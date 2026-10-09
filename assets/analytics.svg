@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="220">
+  <defs>
+    <linearGradient id="dashBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#111726" />
+    </linearGradient>
+
+    <linearGradient id="dashBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.4" />
+    </linearGradient>
+
+    <radialGradient id="dashGlow" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="dashGrid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#ffffff" stroke-opacity="0.015" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <style>
+    .panel-title {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      fill: #38bdf8;
+    }
+    .stat-number {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 22px;
+      font-weight: 800;
+      fill: #ffffff;
+    }
+    .stat-label {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 10px;
+      font-weight: 500;
+      fill: #94a3b8;
+      letter-spacing: 0.3px;
+    }
+    .lang-label {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      fill: #e2e8f0;
+    }
+    .lang-pct {
+      font-family: ui-monospace, monospace;
+      font-size: 10.5px;
+      font-weight: 600;
+      fill: #94a3b8;
+    }
+    .sys-name {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 11.5px;
+      font-weight: 600;
+      fill: #e2e8f0;
+    }
+    .sys-tag {
+      font-family: ui-monospace, monospace;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+  </style>
+
+  <!-- Container -->
+  <rect x="1.5" y="1.5" width="897" height="217" rx="14" fill="url(#dashBg)" stroke="url(#dashBorder)" stroke-width="1.2" />
+  <rect x="1.5" y="1.5" width="897" height="217" rx="14" fill="url(#dashGrid)" />
+  <rect x="1.5" y="1.5" width="897" height="217" rx="14" fill="url(#dashGlow)" />
+
+  <!-- Top Header Bar -->
+  <g transform="translate(24, 20)">
+    <circle cx="4" cy="4" r="3" fill="#38bdf8" />
+    <text x="14" y="4" dominant-baseline="central" font-family="ui-monospace, monospace" font-size="10" font-weight="700" fill="#64748b" letter-spacing="1px">
+      TELEMETRY // CODEBASE ACTIVITY &amp; METRICS
+    </text>
+  </g>
+  <g transform="translate(740, 20)">
+    <circle cx="4" cy="4" r="3" fill="#34d399" />
+    <text x="14" y="4" dominant-baseline="central" font-family="ui-monospace, monospace" font-size="10" font-weight="600" fill="#6ee7b7" letter-spacing="0.5px">
+      STATUS: OPTIMAL
+    </text>
+  </g>
+
+  <!-- ================= PANEL 1: ENGINEERING VELOCITY ================= -->
+  <g transform="translate(20, 42)">
+    <rect width="270" height="160" rx="10" fill="#0e1420" stroke="#1e293b" stroke-width="1" />
+    
+    <!-- Title -->
+    <text x="16" y="22" class="panel-title">ENGINEERING VELOCITY</text>
+
+    <!-- Stat 1: Contributions -->
+    <g transform="translate(16, 42)">
+      <text x="0" y="18" class="stat-number">150+</text>
+      <text x="0" y="32" class="stat-label">Contributions (2025-2026)</text>
+    </g>
+
+    <!-- Stat 2: Total Commits -->
+    <g transform="translate(142, 42)">
+      <text x="0" y="18" class="stat-number">135+</text>
+      <text x="0" y="32" class="stat-label">Production Commits</text>
+    </g>
+
+    <!-- Divider Line -->
+    <line x1="16" y1="94" x2="254" y2="94" stroke="#1e293b" stroke-width="1" />
+
+    <!-- Stat 3: Repositories -->
+    <g transform="translate(16, 110)">
+      <text x="0" y="18" class="stat-number">12</text>
+      <text x="0" y="32" class="stat-label">Public Repositories</text>
+    </g>
+
+    <!-- Stat 4: Core Systems -->
+    <g transform="translate(142, 110)">
+      <text x="0" y="18" class="stat-number">4</text>
+      <text x="0" y="32" class="stat-label">Architected Systems</text>
+    </g>
+  </g>
+
+  <!-- ================= PANEL 2: LANGUAGE DISTRIBUTION ================= -->
+  <g transform="translate(304, 42)">
+    <rect width="292" height="160" rx="10" fill="#0e1420" stroke="#1e293b" stroke-width="1" />
+    
+    <!-- Title -->
+    <text x="16" y="22" class="panel-title">PRIMARY LANGUAGES</text>
+
+    <!-- Lang 1: TypeScript -->
+    <g transform="translate(16, 38)">
+      <text x="0" y="10" class="lang-label">TypeScript</text>
+      <text x="260" y="10" text-anchor="end" class="lang-pct">51.9%</text>
+      <rect x="0" y="15" width="260" height="5" rx="2.5" fill="#1e293b" />
+      <rect x="0" y="15" width="135" height="5" rx="2.5" fill="#38bdf8" />
+    </g>
+
+    <!-- Lang 2: Python -->
+    <g transform="translate(16, 63)">
+      <text x="0" y="10" class="lang-label">Python</text>
+      <text x="260" y="10" text-anchor="end" class="lang-pct">20.2%</text>
+      <rect x="0" y="15" width="260" height="5" rx="2.5" fill="#1e293b" />
+      <rect x="0" y="15" width="53" height="5" rx="2.5" fill="#818cf8" />
+    </g>
+
+    <!-- Lang 3: JavaScript -->
+    <g transform="translate(16, 88)">
+      <text x="0" y="10" class="lang-label">JavaScript</text>
+      <text x="260" y="10" text-anchor="end" class="lang-pct">11.4%</text>
+      <rect x="0" y="15" width="260" height="5" rx="2.5" fill="#1e293b" />
+      <rect x="0" y="15" width="30" height="5" rx="2.5" fill="#f59e0b" />
+    </g>
+
+    <!-- Lang 4: Lua & Shell -->
+    <g transform="translate(16, 113)">
+      <text x="0" y="10" class="lang-label">Lua &amp; Shell</text>
+      <text x="260" y="10" text-anchor="end" class="lang-pct">9.8%</text>
+      <rect x="0" y="15" width="260" height="5" rx="2.5" fill="#1e293b" />
+      <rect x="0" y="15" width="26" height="5" rx="2.5" fill="#34d399" />
+    </g>
+
+    <!-- Lang 5: Other -->
+    <g transform="translate(16, 138)">
+      <text x="0" y="10" class="lang-label">CSS &amp; PHP</text>
+      <text x="260" y="10" text-anchor="end" class="lang-pct">6.7%</text>
+      <rect x="0" y="15" width="260" height="5" rx="2.5" fill="#1e293b" />
+      <rect x="0" y="15" width="18" height="5" rx="2.5" fill="#64748b" />
+    </g>
+  </g>
+
+  <!-- ================= PANEL 3: SYSTEM ARCHITECTURES ================= -->
+  <g transform="translate(610, 42)">
+    <rect width="270" height="160" rx="10" fill="#0e1420" stroke="#1e293b" stroke-width="1" />
+    
+    <!-- Title -->
+    <text x="16" y="22" class="panel-title">DEPLOYED ARCHITECTURES</text>
+
+    <!-- System 1: Nusa Agent -->
+    <g transform="translate(16, 42)">
+      <circle cx="4" cy="6" r="3.5" fill="#34d399" />
+      <text x="16" y="9" class="sys-name">Nusa-Agent</text>
+      <rect x="178" y="-1" width="62" height="18" rx="4" fill="#062d21" stroke="#059669" stroke-width="0.8" />
+      <text x="209" y="8" dominant-baseline="central" text-anchor="middle" fill="#34d399" class="sys-tag">STABLE</text>
+    </g>
+
+    <!-- System 2: RuangAksara -->
+    <g transform="translate(16, 70)">
+      <circle cx="4" cy="6" r="3.5" fill="#38bdf8" />
+      <text x="16" y="9" class="sys-name">RuangAksara</text>
+      <rect x="160" y="-1" width="80" height="18" rx="4" fill="#0b253a" stroke="#0284c7" stroke-width="0.8" />
+      <text x="200" y="8" dominant-baseline="central" text-anchor="middle" fill="#38bdf8" class="sys-tag">COMPLETED</text>
+    </g>
+
+    <!-- System 3: Sendora -->
+    <g transform="translate(16, 98)">
+      <circle cx="4" cy="6" r="3.5" fill="#34d399" />
+      <text x="16" y="9" class="sys-name">Sendora</text>
+      <rect x="178" y="-1" width="62" height="18" rx="4" fill="#062d21" stroke="#059669" stroke-width="0.8" />
+      <text x="209" y="8" dominant-baseline="central" text-anchor="middle" fill="#34d399" class="sys-tag">ACTIVE</text>
+    </g>
+
+    <!-- System 4: Electron-Executor -->
+    <g transform="translate(16, 126)">
+      <circle cx="4" cy="6" r="3.5" fill="#10b981" />
+      <text x="16" y="9" class="sys-name">Electron-Executor</text>
+      <rect x="168" y="-1" width="72" height="18" rx="4" fill="#0b231c" stroke="#10b981" stroke-width="0.8" />
+      <text x="204" y="8" dominant-baseline="central" text-anchor="middle" fill="#6ee7b7" class="sys-tag">PRODUCTION</text>
+    </g>
+  </g>
+</svg>

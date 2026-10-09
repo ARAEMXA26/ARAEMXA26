@@ -57,16 +57,11 @@
 
 ---
 
-### <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/icons/activity.svg" width="18" height="18" align="absmiddle" /> GitHub Activity & Metrics
+### <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/icons/activity.svg" width="18" height="18" align="absmiddle" /> Engineering Velocity &amp; Telemetry
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ARAEMXA26&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8" width="49%" alt="Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ARAEMXA26&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" width="49%" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=ARAEMXA26&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b" width="99%" alt="Streak" />
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/analytics.svg" alt="Engineering Velocity and Telemetry" width="100%" />
+</div>
 
 ---
 
