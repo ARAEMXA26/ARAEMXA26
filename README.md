@@ -60,7 +60,7 @@
 ### <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/icons/activity.svg" width="18" height="18" align="absmiddle" /> Engineering Velocity &amp; Telemetry
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/analytics.svg" alt="Engineering Velocity and Telemetry" width="100%" />
+  <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/analytics-v2.svg" alt="Engineering Velocity and Telemetry" width="100%" />
 </div>
 
 ---
