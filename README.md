@@ -40,18 +40,18 @@
 
 <p align="center">
   <a href="https://github.com/ARAEMXA26/Nusa-Agent">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ARAEMXA26&repo=Nusa-Agent&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=818cf8&text_color=94a3b8" width="49%" alt="Nusa-Agent" />
+    <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/cards/nusa-agent.svg" width="49%" alt="Nusa-Agent" />
   </a>
   <a href="https://github.com/ARAEMXA26/RuangAksara">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ARAEMXA26&repo=RuangAksara&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=818cf8&text_color=94a3b8" width="49%" alt="RuangAksara" />
+    <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/cards/ruang-aksara.svg" width="49%" alt="RuangAksara" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/ARAEMXA26/Sendora">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ARAEMXA26&repo=Sendora&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=818cf8&text_color=94a3b8" width="49%" alt="Sendora" />
+    <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/cards/sendora.svg" width="49%" alt="Sendora" />
   </a>
   <a href="https://github.com/ARAEMXA26/Electron-Executor">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ARAEMXA26&repo=Electron-Executor&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=818cf8&text_color=94a3b8" width="49%" alt="Electron-Executor" />
+    <img src="https://raw.githubusercontent.com/ARAEMXA26/ARAEMXA26/main/assets/cards/electron-executor.svg" width="49%" alt="Electron-Executor" />
   </a>
 </p>
 

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 185" width="100%" height="185">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d131f" />
+      <stop offset="50%" stop-color="#0b0f17" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Background with Hairline Border -->
+  <rect x="1.5" y="1.5" width="427" height="182" rx="12" fill="url(#cardBg)" stroke="url(#borderGlow)" stroke-width="1.2" />
+
+  <!-- Top Icon -->
+  <g transform="translate(24, 20)">
+          <rect width="36" height="36" rx="10" fill="#1c1033" stroke="#a855f7" stroke-width="1.2" stroke-opacity="0.4" />
+          <path d="M18 11a4.5 4.5 0 0 0-4.5 4.5c0 1.8 1.2 3.2 1.8 4h5.4c.6-.8 1.8-2.2 1.8-4A4.5 4.5 0 0 0 18 11z" fill="none" stroke="#a855f7" stroke-width="1.5" />
+          <line x1="16" y1="22" x2="20" y2="22" stroke="#a855f7" stroke-width="1.5" stroke-linecap="round" />
+        </g>
+
+  <!-- Category Monospace Tag -->
+  <text x="70" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" font-weight="700" letter-spacing="1px" fill="#a855f7">
+    AI KNOWLEDGE MANAGEMENT
+  </text>
+
+  <!-- Title -->
+  <text x="70" y="49" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800" fill="#ffffff" letter-spacing="0.3px">
+    RuangAksara
+  </text>
+
+  <!-- External Link Vector Arrow -->
+  <g transform="translate(390, 20)">
+    <circle cx="10" cy="10" r="12" fill="#1e293b" fill-opacity="0.6" />
+    <path d="M6 14L14 6M14 6H8M14 6V12" fill="none" stroke="#94a3b8" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Description Lines -->
+  <text x="24" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94a3b8" letter-spacing="0.2px">
+    Intelligent digital library with semantic vector search &amp;
+  </text>
+  <text x="24" y="101" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94a3b8" letter-spacing="0.2px">
+    dual-provider AI chatbot (Groq Llama 3.3 + Gemini).
+  </text>
+
+  <!-- Status Indicator Badge -->
+  <g transform="translate(24, 122)">
+    <circle cx="4" cy="4" r="3" fill="#38bdf8" />
+    <text x="13" y="4" dominant-baseline="central" font-family="ui-monospace, monospace" font-size="9.5" font-weight="600" fill="#38bdf8" letter-spacing="0.5px">
+      COMPLETED
+    </text>
+  </g>
+
+  <!-- Tech Stack Chips -->
+  <g transform="translate(24, 148)">
+          <rect width="81.0" height="22" rx="4" fill="#161f30" stroke="#2d3748" stroke-width="0.8" />
+          <text x="40.5" y="11" dominant-baseline="central" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#94a3b8" font-weight="500">Next.js 15</text>
+        </g><g transform="translate(111.0, 148)">
+          <rect width="55.0" height="22" rx="4" fill="#161f30" stroke="#2d3748" stroke-width="0.8" />
+          <text x="27.5" y="11" dominant-baseline="central" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#94a3b8" font-weight="500">Prisma</text>
+        </g><g transform="translate(172.0, 148)">
+          <rect width="81.0" height="22" rx="4" fill="#161f30" stroke="#2d3748" stroke-width="0.8" />
+          <text x="40.5" y="11" dominant-baseline="central" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#94a3b8" font-weight="500">PostgreSQL</text>
+        </g><g transform="translate(259.0, 148)">
+          <rect width="61.5" height="22" rx="4" fill="#161f30" stroke="#2d3748" stroke-width="0.8" />
+          <text x="30.75" y="11" dominant-baseline="central" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#94a3b8" font-weight="500">Groq AI</text>
+        </g>
+</svg>
